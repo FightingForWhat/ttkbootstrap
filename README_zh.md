@@ -70,3 +70,9 @@ root.mainloop()
 ## 链接：
 - **文档：** https://ttkbootstrap.readthedocs.io/en/latest/zh/  
 - **GitHub：** https://github.com/israel-dryer/ttkbootstrap
+
+## 升级
+- ** tableview.py 增加 bottom_scrollbar and vertical_scrollbar属性， 且均默认为False。 默认去掉横向滚动条，增加竖向滚动条，默认不显示。
+- ** tableview.py 增加 view_down, show_data 两个方法。前者使页面自动下滑至最后一条数据，后者加载数据时不刷新整个页面。配合insert_row -> show_data使用时，加载更顺滑。
+
+
