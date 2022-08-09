@@ -72,3 +72,8 @@ The new keyword API is very flexible. The following examples all produce the sam
 ## Links
 - **Documentation:** https://ttkbootstrap.readthedocs.io/en/latest/  
 - **GitHub:** https://github.com/israel-dryer/ttkbootstrap
+
+## Change
+- ** tableview.py add bottom_scrollbar and vertical_scrollbar, with the default False, for the view of the window more beautiful.
+- ** tableview.py add the view_down, show_data methods, first for focusing the end of the table, second for after inserting data and show the new data without fresh the all table. use insert_row -> show_data method made the loading more smoothly.
+
